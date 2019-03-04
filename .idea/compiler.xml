@@ -9,12 +9,18 @@
         <module name="client1" />
         <module name="client2" />
         <module name="server-eureka" />
+        <module name="service-feign" />
+        <module name="service-ribbon" />
+        <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client1" target="1.8" />
       <module name="client2" target="1.8" />
       <module name="server-eureka" target="1.8" />
+      <module name="service-feign" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="service-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +28,9 @@
       <module name="client1" options="-parameters" />
       <module name="client2" options="-parameters" />
       <module name="server-eureka" options="-parameters" />
+      <module name="service-feign" options="-parameters" />
+      <module name="service-ribbon" options="-parameters" />
+      <module name="service-zuul" options="-parameters" />
     </option>
   </component>
 </project>
